@@ -1,0 +1,27 @@
+* {
+    font-family: "Verdana", sans-serif;
+}
+
+.header {
+    font-size: 48px;
+    text-align: center;
+}
+
+/* Copied and pasted this section from somewhere. a:link is for unvisited, a:visited is for visited, a:hover is on mouse hover, and a:active is an active link (not sure what an active link is yet */
+a:link, a:visited {
+    background-color: #ccffff;
+    color: black;
+    margin: 10px;
+    border: 1px solid black;
+    /* padding increases the area to click */
+    padding: 15px 25px;
+    text-align: center;
+    /* text-decoration gets rid of the underline on the links */
+    text-decoration: none; 
+    /* not one hundred percent sure what inline-block does. block display makes it take the whole width. inline lets them sit inline. */
+    display: block;
+  }
+  
+  a:hover, a:active {
+    background-color: #4dffff;
+  }
