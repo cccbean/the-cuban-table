@@ -20,8 +20,43 @@ a:link, a:visited {
     text-decoration: none; 
     /* not one hundred percent sure what inline-block does. block display makes it take the whole width. inline lets them sit inline. */
     display: block;
-  }
+}
   
-  a:hover, a:active {
+a:hover, a:active {
     background-color: #4dffff;
+}
+
+div {
+    background-color: #ccffff;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 20px; 
+}
+
+.div-header {
+    color: green;
+    text-align: center;
   }
+
+.ingredients {
+    text-align: justify;
+    display: flex;
+}
+
+.ingredients * {
+    /* Adjusting the flex has to be done to the elements that are actually getting flexed */
+    flex: 1;
+}
+
+.ingredients p {
+    color: green;
+}
+
+.ingredients li {
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+}
